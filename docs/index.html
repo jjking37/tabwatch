@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TabWatch — Smart Auto-Refresh &amp; Keyword Monitor</title>
+  <style>
+    :root { --bg:#0b1120; --surface:#111827; --border:#334155; --text:#f8fafc; --muted:#94a3b8; --cyan:#38bdf8; --emerald:#10b981; --amber:#f59e0b; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font-family:ui-sans-serif,system-ui,-apple-system,sans-serif; line-height:1.6; }
+    .wrap { max-width:900px; margin:0 auto; padding:48px 20px 64px; }
+    .hero { display:flex; flex-direction:column; gap:14px; margin-bottom:40px; }
+    .pill { display:inline-block; width:fit-content; padding:4px 12px; border-radius:999px; background:rgba(56,189,248,0.15); color:var(--cyan); border:1px solid rgba(56,189,248,0.35); font-size:12px; font-weight:700; }
+    h1 { margin:0; font-size:38px; line-height:1.15; }
+    .lead { margin:0; font-size:18px; color:var(--muted); max-width:680px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; margin-bottom:36px; }
+    .card { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:20px; }
+    .card h2 { margin:0 0 8px; font-size:18px; }
+    .card p,.card li { color:var(--muted); font-size:14px; }
+    .price { font-size:26px; font-weight:800; color:var(--cyan); margin:8px 0; }
+    .badge-free { color:var(--emerald); font-weight:700; font-size:12px; }
+    .badge-pro { color:var(--amber); font-weight:700; font-size:12px; }
+    footer { border-top:1px solid var(--border); padding-top:20px; color:var(--muted); font-size:13px; }
+    a { color:var(--cyan); text-decoration:none; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <span class="pill">CHROME MANIFEST V3 EXTENSION</span>
+      <h1>TabWatch — Smart Refresh &amp; Keyword Monitor</h1>
+      <p class="lead">Monitor any open webpage for keyword or DOM changes with smart jitter, floating countdown HUD, Web Audio chimes, Web Speech voice alerts, and optional Pro cloud email notifications.</p>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <span class="badge-free">FREE TIER</span>
+        <h2>Local Monitoring</h2>
+        <div class="price">$0</div>
+        <ul>
+          <li>Fixed &amp; randomized jitter auto-refresh</li>
+          <li>Keyword Appears (Found) &amp; Disappears (Lost)</li>
+          <li>Floating HUD timer, scroll restore &amp; sleep lock</li>
+          <li>Web Audio chimes &amp; Web Speech TTS voice alerts</li>
+        </ul>
+      </div>
+      <div class="card">
+        <span class="badge-pro">PRO MONTHLY</span>
+        <h2>Cloud Email Alerts</h2>
+        <div class="price">$2.99 / mo</div>
+        <p>Verified 6-digit recipient email alerts when monitored pages match while you are away. Activate on up to 3 devices via Polar.sh. Cancel anytime.</p>
+      </div>
+      <div class="card">
+        <span class="badge-pro">PRO ANNUAL</span>
+        <h2>Cloud Email Alerts</h2>
+        <div class="price">$19.99 / yr</div>
+        <p>Save 44% with annual billing. Includes verified email webhook notifications and Polar.sh customer portal management. Cancel anytime.</p>
+      </div>
+    </div>
+    <footer>
+      <p><strong>Support:</strong> <a href="mailto:donj73w@gmail.com">donj73w@gmail.com</a> &nbsp;·&nbsp; <a href="https://github.com/jjking37/tabwatch/blob/main/PRIVACY.md">Privacy Policy (PRIVACY.md)</a></p>
+    </footer>
+  </div>
+</body>
+</html>
